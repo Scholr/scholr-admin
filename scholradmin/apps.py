@@ -22,9 +22,9 @@ from django.utils.html import escape
 from functools import update_wrapper
 import logging
 
-from core.detail_view import DetailView, ResumeView
-from core.forms import BootstrapModelForm
-from core.util import get_deleted_objects, get_object_or_none
+from scholradmin.detail_view import DetailView, ResumeView
+from scholradmin.forms import BootstrapModelForm
+from scholradmin.util import get_deleted_objects, get_object_or_none
 csrf_protect_m = method_decorator(csrf_protect)
 
 session_logger = logging.getLogger('session')

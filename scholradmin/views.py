@@ -6,7 +6,7 @@ from django.forms.widgets import HiddenInput
 from django.shortcuts import get_object_or_404
 from vanilla import FormView
 from django.utils.translation import ugettext_lazy as _
-from core.forms import BootstrapModelForm
+from scholradmin.forms import BootstrapModelForm
 from django import http
 from django.utils.decorators import classonlymethod
 from django.template import (RequestContext,
